@@ -4,6 +4,17 @@
   "description": "Minimalist, linktree-style website designed to showcase and provide easy access to your most important online profiles and content. Built with Gatsby.js and React, the site emphasizes simplicity, aesthetics, and responsiveness.",
   "version": "0.1.0",
   "author": "Elly K <lkotlarenko@proton.me>",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "predeploy": "gatsby build",
+    "deploy": "gh-pages -d public",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
   "dependencies": {
     "gatsby": "^5.13.7",
     "gatsby-plugin-image": "^3.13.1",
