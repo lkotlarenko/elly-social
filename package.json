@@ -1,0 +1,42 @@
+{
+  "name": "link-hub",
+  "private": false,
+  "description": "Minimalist, linktree-style website designed to showcase and provide easy access to your most important online profiles and content. Built with Gatsby.js and React, the site emphasizes simplicity, aesthetics, and responsiveness.",
+  "version": "0.1.0",
+  "author": "Elly K <lkotlarenko@proton.me>",
+  "dependencies": {
+    "gatsby": "^5.13.7",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-starter-default": "file:",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "link-hub": "file:",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
