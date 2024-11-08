@@ -8,12 +8,14 @@ const LinkItem = ({ name, url, icon }) => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <img // CHANGE THE GITHUB USERNAME ON TO POINT TO YOUR REPOSITORY
-        src={`https://github.com/lkotlarenko/link-hub/blob/main/src/images/${icon}`}
-        alt={`${name} icon`}
-        className="link-icon"
-      />
-      <span>{name}</span>
+      <div className="link-content">
+        <img
+          src={`https://github.com/lkotlarenko/link-hub/blob/main/src/images/${icon}?raw=true`}
+          alt={`${name} icon`}
+          className="link-icon"
+        />
+        <span className="link-text">{name}</span>
+      </div>
     </a>
   )
 }
