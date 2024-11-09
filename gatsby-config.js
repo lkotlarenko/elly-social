@@ -5,7 +5,7 @@ module.exports = {
     author: `@Elly`,
     siteUrl: `https://elly.social/`,
     headline: `Find Elly Everywhere`,
-    image: `https://i.imgur.com/pVMmmZa.png`,
+    image: `/src/images/favicon.png`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -27,7 +27,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#000000`,
         display: `minimal-ui`,
-        icon: `https://i.imgur.com/pVMmmZa.png`,
+        icon: `src/images/favicon.png`,
       },
     },
   ],
