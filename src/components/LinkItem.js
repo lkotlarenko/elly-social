@@ -10,7 +10,7 @@ const LinkItem = ({ name, url, icon }) => {
     >
       <div className="link-content">
         <img
-          src={`https://github.com/lkotlarenko/link-hub/blob/main/src/images/${icon}?raw=true`}
+          src={`${icon}`}
           alt={`${name} icon`}
           className="link-icon"
         />

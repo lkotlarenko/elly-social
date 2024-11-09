@@ -1,18 +1,18 @@
 const links = [
   {
-    name: "X (Twitter)",
-    url: "https://x.com/EllyFromTerra",
-    icon: "x-icon.png",
+    name: "Bluesky",
+    url: "https://bsky.app/profile/elly.social",
+    icon: "https://i.imgur.com/593WzwM.png",
   },
   {
     name: "Spotify",
     url: "https://open.spotify.com/user/lkotlarenko",
-    icon: "spotify-icon.png",
+    icon: "https://i.imgur.com/285OR45.png",
   },
   {
-    name: "Bluesky",
-    url: "https://bsky.app/profile/elly.social",
-    icon: "bsky-icon.png",
+    name: "(X) Twitter",
+    url: "https://x.com/EllyFromTerra",
+    icon: "https://i.imgur.com/R6vca9g.png",
   },
 ]
 // You can add more links to the links array above, put the images inside the src/images folder
