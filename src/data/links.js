@@ -15,6 +15,6 @@ const links = [
     icon: "https://i.imgur.com/R6vca9g.png",
   },
 ]
-// You can add more links to the links array above, put the images inside the src/images folder
+// You can add more links to the links array above
 
 export default links
