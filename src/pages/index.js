@@ -13,7 +13,7 @@ const IndexPage = () => (
     />
     <main>
       <BackgroundEffect />
-      <h1>Elly's Socials:</h1>
+      <h1 className="title">Elly's Socials:</h1>
       <div className="links-container">
         {links.map(link => (
           <LinkItem key={link.url} {...link} />
