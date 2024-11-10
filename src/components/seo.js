@@ -20,7 +20,7 @@ const Seo = ({ title, description, image }) => {
 
   const metaTitle = title || site.siteMetadata.title
   const metaDescription = description || site.siteMetadata.description
-  const metaImage = image || `https://i.imgur.com/pVMmmZa.png`
+  const metaImage = image || `https://i.imgur.com/3WZLppL.png`
 
   return (
     <Helmet>

@@ -25,7 +25,7 @@ module.exports = {
         name: `Elly's Social Hub`,
         short_name: `EllyHub`,
         start_url: `/`,
-        background_color: `#000000`,
+        background_color: `#f5a9b8`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`,
       },

@@ -1,9 +1,10 @@
 import React from "react"
+import BackgroundEffect from "../components/BackgroundEffect"
+import CopyLinkItem from "../components/CopyLinkItem"
 import LinkItem from "../components/LinkItem"
 import links from "../data/links"
 import "../styles/global.css"
 import Seo from "../components/seo"
-import BackgroundEffect from "../components/BackgroundEffect" // Import the new component
 
 const IndexPage = () => (
   <>
@@ -15,9 +16,23 @@ const IndexPage = () => (
       <BackgroundEffect />
       <h1 className="title">Elly's Socials:</h1>
       <div className="links-container">
-        {links.map(link => (
-          <LinkItem key={link.url} {...link} />
-        ))}
+        {links.map((link, index) =>
+          link.type === "copy" ? (
+            <CopyLinkItem
+              key={index}
+              icon={link.icon}
+              text={link.text}
+              copyValue={link.copyValue}
+            />
+          ) : (
+            <LinkItem
+              key={index}
+              icon={link.icon}
+              text={link.text}
+              url={link.url}
+            />
+          )
+        )}
       </div>
     </main>
   </>

@@ -51,7 +51,7 @@ const BackgroundEffect = () => {
             style={{
               ...position,
               opacity: 0,
-              animation: `${randomAnimation} 5s linear ${randomDelay} infinite forwards`,
+              animation: `${randomAnimation} 9s linear ${randomDelay} infinite forwards`,
             }}
           >
             <img
@@ -67,17 +67,17 @@ const BackgroundEffect = () => {
 
   return (
     <>
-      {generateItems(
-        "carrot",
-        "https://i.imgur.com/285OR45.png",
-        numberOfItems
-      )}
+      {generateItems("bunny", "https://i.imgur.com/JKwmew2.png", 0)}
       {generateItems(
         "cloud",
-        "https://i.imgur.com/R6vca9g.png",
+        "https://i.imgur.com/m4OaGRW.png",
         numberOfItems * 2
       )}
-      {generateItems("bunny", "https://i.imgur.com/593WzwM.png", 0)}
+      {generateItems(
+        "carrot",
+        "https://i.imgur.com/3WZLppL.png",
+        numberOfItems
+      )}
     </>
   )
 }
