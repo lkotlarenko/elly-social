@@ -12,6 +12,12 @@ const IndexPage = () => (
       title="Elly's Social Hub"
       description="A hub where you can find all the links to Elly's social profiles."
     />
+    <div
+      dangerouslySetInnerHTML={{
+        __html:
+          "<!-- Thanks to https://bsky.app/profile/TallThemiscyran.bsky.social for the cute assets and assistance with front-end coding development and troubleshooting! 🩷 -->",
+      }}
+    />
     <main>
       <BackgroundEffect />
       <h1 className="title">Elly's Socials:</h1>
