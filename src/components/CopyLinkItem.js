@@ -7,7 +7,7 @@ const CopyLinkItem = ({ icon, text, copyValue }) => {
   const handleCopy = () => {
     navigator.clipboard.writeText(copyValue).then(() => {
       setShowModal(true)
-      setTimeout(() => setShowModal(false), 2500)
+      setTimeout(() => setShowModal(false), 2900)
     })
   }
 
@@ -35,9 +35,7 @@ const CopyLinkItem = ({ icon, text, copyValue }) => {
         </div>
       </div>
       {showModal && (
-        <div className="copy-modal">
-          My friend code was copied to clipboard :3
-        </div>
+        <div className="copy-modal">Friend code copied to clipboard :3</div>
       )}
     </>
   )

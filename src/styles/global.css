@@ -1,14 +1,19 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: italic;
   background-color: #f5a9b8;
   color: #e0e0e0;
-  margin: 0;
-  padding: 0;
   text-align: center;
   position: relative;
-  overflow: hidden;
   background-image: repeating-linear-gradient(
       45deg,
       transparent 0,
@@ -25,10 +30,10 @@ body {
 }
 
 .copy-modal {
-  position: absolute;
-  bottom: -10%;
+  position: fixed;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   background-color: #ffffff;
   color: #000000;
   padding: 8px 16px;
@@ -36,8 +41,7 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   font-size: 1.4rem;
   font-weight: 600;
-  white-space: nowrap;
-  animation: fadeInOut 2.5s ease forwards;
+  animation: fadeInOut 1.5s ease forwards;
 }
 
 @keyframes fadeInOut {
@@ -263,12 +267,6 @@ h1 {
   padding: 15px;
   width: 100%;
   gap: 15px;
-}
-
-.link-item {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
 }
 
 .link-item::before {
