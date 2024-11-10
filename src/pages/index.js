@@ -2,7 +2,8 @@ import React from "react"
 import LinkItem from "../components/LinkItem"
 import links from "../data/links"
 import "../styles/global.css"
-import Seo from '../components/seo';
+import Seo from "../components/seo"
+import BackgroundEffect from "../components/BackgroundEffect" // Import the new component
 
 const IndexPage = () => (
   <>
@@ -11,6 +12,7 @@ const IndexPage = () => (
       description="A hub where you can find all the links to Elly's social profiles."
     />
     <main>
+      <BackgroundEffect />
       <h1>Elly's Socials:</h1>
       <div className="links-container">
         {links.map(link => (

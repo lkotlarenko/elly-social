@@ -9,11 +9,7 @@ const LinkItem = ({ name, url, icon }) => {
       rel="noopener noreferrer"
     >
       <div className="link-content">
-        <img
-          src={`${icon}`}
-          alt={`${name} icon`}
-          className="link-icon"
-        />
+        <img src={`${icon}`} alt={`${name} icon`} className="link-icon" />
         <span className="link-text">{name}</span>
       </div>
     </a>
