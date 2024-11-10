@@ -11,7 +11,7 @@ const IndexPage = () => (
       description="A hub where you can find all the links to Elly's social profiles."
     />
     <main>
-      <h1>elly's socials:</h1>
+      <h1>Elly's Socials:</h1>
       <div className="links-container">
         {links.map(link => (
           <LinkItem key={link.url} {...link} />

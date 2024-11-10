@@ -1,5 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
   background-color: #121212;
   color: #e0e0e0;
   margin: 0;
@@ -7,11 +9,14 @@ body {
   text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Great Vibes", cursive;
   margin-top: 50px;
-  font-size: 2.5em;
   color: #ffffff;
-  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2.5em;
   letter-spacing: 2px;
 }
 

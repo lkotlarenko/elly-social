@@ -27,7 +27,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "socials-hub": "file:"
+    "socials-hub": "file:",
+    "typeface-great-vibes": "^1.1.13",
+    "typeface-poppins": "^1.1.13"
   },
   "devDependencies": {
     "gh-pages": "^5.0.0",
