@@ -19,7 +19,7 @@ const links = [
   },
   {
     type: "copy",
-    text: "Pokemon TCG",
+    text: "Pokemon TCGP",
     copyValue: "8138421388531067",
     icon: "https://i.imgur.com/6x3xb28.png",
   },
